@@ -29,6 +29,7 @@ public class SecondActivity extends Activity
 	@Override
 	public void onBackPressed()
 	{
+	System.out.println("ABC");
 		back(null);
 	}
 }
